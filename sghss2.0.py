@@ -6,7 +6,7 @@ def conectar_bd():
         return mariadb.connect(
             host='localhost',
             user='root',
-            password='Jonh056*',
+            password='procure_o_admin_para_senha',
             database='sghss'
         )
     except mariadb.Error as e:
